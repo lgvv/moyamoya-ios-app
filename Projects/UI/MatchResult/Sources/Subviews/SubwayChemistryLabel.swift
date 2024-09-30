@@ -1,0 +1,44 @@
+import Entity
+import SwiftUI
+import MatchingFeature
+import DesignSystem
+
+struct SubwayChemistryLabel: View {
+    
+    private let targetName: String
+    private let chemistryData: MatchingInfo.ChemistryInfo
+    
+    init(
+        targetName: String,
+        info chemistryData: MatchingInfo.ChemistryInfo
+    ) {
+        self.targetName = targetName
+        self.chemistryData = chemistryData
+    }
+    
+    var body: some View {
+        HStack(alignment: .top, spacing: 0) {
+            Image.findSubwayImageResource(from: chemistryData.title)
+                .resizable()
+                .frame(width: 24, height: 24)
+            
+            Spacer()
+                .frame(width: 12)
+            
+            VStack(alignment: .leading, spacing: 0) {
+                Text(chemistryData.description + "에서 만나요")
+                    .font(.Funch.subtitle1)
+                    .foregroundColor(.white)
+                
+                Spacer()
+                    .frame(height: 2)
+                
+                Text(targetName + "님도" + chemistryData.description + "에 살고 있어요")
+                    .font(.Funch.body)
+                    .foregroundColor(DesignSystemAsset.Color.gray400.swiftUIColor)
+            }
+            
+            Spacer()
+        }
+    }
+}
