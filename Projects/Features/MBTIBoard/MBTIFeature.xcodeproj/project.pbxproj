@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BC94F0B4A9CFA010D961845 /* FunchCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77378DD3AA764A6DE5AB93F /* FunchCore.framework */; };
+		1E3C4C246B88760D6667E8F6 /* MBTIRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01302E6F7A31BF837AB43EE8 /* MBTIRepository.swift */; };
+		2D914216E37C2E5DF86998CF /* MBTIFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949F84F9FB30F51555041636 /* MBTIFeature.framework */; };
+		41296948900904C346647B5C /* UserDefaultClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202816F7DF5C682419C20ACC /* UserDefaultClient.framework */; };
+		41CE13D693A93FF709A23F32 /* FunchNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80737D242C2939B8F4D59D0E /* FunchNetworking.framework */; };
+		82BFFD686DB84AE4D16C7DA4 /* Entity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FEE1FCCD44410CFF53C1F9 /* Entity.framework */; };
+		8A6E3E10DB4E49197E11B304 /* MBTIRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0028748FEE8F37640B5289 /* MBTIRepositoryImpl.swift */; };
+		931B396F23D2FC30E046192C /* MBTIBoardUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067840DCD3CD3BC1E8F34FB3 /* MBTIBoardUseCase.swift */; };
+		B70A6A037797322C581FFA69 /* Dummy.swift in Resources */ = {isa = PBXBuildFile; fileRef = BCCD81B14C2A972192886115 /* Dummy.swift */; };
+		C5F3F50E4AFC6280F5B0E56F /* TuistBundle+MBTIFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871DA08F6F51C8D3D531DE68 /* TuistBundle+MBTIFeature.swift */; };
+		CF11A6B50933593C4971B66B /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226F3080CDE4933470546C30 /* Dummy.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54D00ACB27375EB82B12952A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCCEC223486D610BC41F7B47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53F664F18D1154489059DF0;
+			remoteInfo = MBTIFeature;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF03195AB15DF443BBC101D8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88D993A7B6E75F27B34491D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01302E6F7A31BF837AB43EE8 /* MBTIRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBTIRepository.swift; sourceTree = "<group>"; };
+		067840DCD3CD3BC1E8F34FB3 /* MBTIBoardUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBTIBoardUseCase.swift; sourceTree = "<group>"; };
+		0A0028748FEE8F37640B5289 /* MBTIRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBTIRepositoryImpl.swift; sourceTree = "<group>"; };
+		202816F7DF5C682419C20ACC /* UserDefaultClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UserDefaultClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		226F3080CDE4933470546C30 /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
+		50F7F598642DC966E86C4E70 /* MBTIFeatureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MBTIFeatureTests-Info.plist"; sourceTree = "<group>"; };
+		669B9033B3F36DCE3E0241F0 /* MBTIFeatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBTIFeatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71CFB7D7ACBF5D78E28ABFC6 /* MBTIFeature-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MBTIFeature-Info.plist"; sourceTree = "<group>"; };
+		80737D242C2939B8F4D59D0E /* FunchNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FunchNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		871DA08F6F51C8D3D531DE68 /* TuistBundle+MBTIFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+MBTIFeature.swift"; sourceTree = "<group>"; };
+		949F84F9FB30F51555041636 /* MBTIFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBTIFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0FEE1FCCD44410CFF53C1F9 /* Entity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Entity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77378DD3AA764A6DE5AB93F /* FunchCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FunchCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCD81B14C2A972192886115 /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5DD32F40643AB50C8727714 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BFFD686DB84AE4D16C7DA4 /* Entity.framework in Frameworks */,
+				0BC94F0B4A9CFA010D961845 /* FunchCore.framework in Frameworks */,
+				41CE13D693A93FF709A23F32 /* FunchNetworking.framework in Frameworks */,
+				41296948900904C346647B5C /* UserDefaultClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA93E30335B0F5682AA80F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D914216E37C2E5DF86998CF /* MBTIFeature.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E9348342B878BCE591F3BC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				871DA08F6F51C8D3D531DE68 /* TuistBundle+MBTIFeature.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		2BFC1B8BCB2ED7E7B0C55C5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0FEE1FCCD44410CFF53C1F9 /* Entity.framework */,
+				A77378DD3AA764A6DE5AB93F /* FunchCore.framework */,
+				80737D242C2939B8F4D59D0E /* FunchNetworking.framework */,
+				949F84F9FB30F51555041636 /* MBTIFeature.framework */,
+				669B9033B3F36DCE3E0241F0 /* MBTIFeatureTests.xctest */,
+				202816F7DF5C682419C20ACC /* UserDefaultClient.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3924AA8ABB50883B3B37AFE6 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				51A45B129C9D644C107869F1 /* Derived */,
+				F8450DB8D6BAAA9D345E4254 /* Resources */,
+				7F46F4209E0ECE53D436874B /* Sources */,
+				583C397855DD9C753A3B95E9 /* Tests */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		42C24859ED1B7D5E959C689C /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				01302E6F7A31BF837AB43EE8 /* MBTIRepository.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		51A45B129C9D644C107869F1 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				A7CB4BD997A4845222B2B908 /* InfoPlists */,
+				03E9348342B878BCE591F3BC /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		51B047A8F959D39E4CB38E23 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				42C24859ED1B7D5E959C689C /* Interfaces */,
+				9C24B27C8ECEDCACF9790F5D /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		583C397855DD9C753A3B95E9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				226F3080CDE4933470546C30 /* Dummy.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		7F46F4209E0ECE53D436874B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E1C86DAC0EE9051E4D2832F1 /* Data */,
+				51B047A8F959D39E4CB38E23 /* Domain */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9C24B27C8ECEDCACF9790F5D /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				067840DCD3CD3BC1E8F34FB3 /* MBTIBoardUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		A7CB4BD997A4845222B2B908 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				71CFB7D7ACBF5D78E28ABFC6 /* MBTIFeature-Info.plist */,
+				50F7F598642DC966E86C4E70 /* MBTIFeatureTests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		CB5DC9B2717482FAE8A58C2B = {
+			isa = PBXGroup;
+			children = (
+				3924AA8ABB50883B3B37AFE6 /* Project */,
+				2BFC1B8BCB2ED7E7B0C55C5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1C86DAC0EE9051E4D2832F1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0A0028748FEE8F37640B5289 /* MBTIRepositoryImpl.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F8450DB8D6BAAA9D345E4254 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BCCD81B14C2A972192886115 /* Dummy.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9454196642E2C2C1D2CF48D9 /* MBTIFeatureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2E11CC59A27B08F2DE33437 /* Build configuration list for PBXNativeTarget "MBTIFeatureTests" */;
+			buildPhases = (
+				C2A1155B9E49820A666FA2D0 /* Sources */,
+				62886164003BA9E1AA057E60 /* Resources */,
+				BF03195AB15DF443BBC101D8 /* Embed Frameworks */,
+				EA93E30335B0F5682AA80F3E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0F7D9CD2F7FC724BB894C5E /* PBXTargetDependency */,
+			);
+			name = MBTIFeatureTests;
+			productName = MBTIFeatureTests;
+			productReference = 669B9033B3F36DCE3E0241F0 /* MBTIFeatureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A53F664F18D1154489059DF0 /* MBTIFeature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7DB14ECC7D6092C6FF34ECA /* Build configuration list for PBXNativeTarget "MBTIFeature" */;
+			buildPhases = (
+				4D3B29794646D55AB830CF84 /* Sources */,
+				AA606278F81C5EDDEBFF13C8 /* Resources */,
+				D88D993A7B6E75F27B34491D /* Embed Frameworks */,
+				A5DD32F40643AB50C8727714 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBTIFeature;
+			productName = MBTIFeature;
+			productReference = 949F84F9FB30F51555041636 /* MBTIFeature.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCCEC223486D610BC41F7B47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 6EF69C1F6B6F72509C71F0E1 /* Build configuration list for PBXProject "MBTIFeature" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CB5DC9B2717482FAE8A58C2B;
+			productRefGroup = 2BFC1B8BCB2ED7E7B0C55C5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A53F664F18D1154489059DF0 /* MBTIFeature */,
+				9454196642E2C2C1D2CF48D9 /* MBTIFeatureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62886164003BA9E1AA057E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA606278F81C5EDDEBFF13C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B70A6A037797322C581FFA69 /* Dummy.swift in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D3B29794646D55AB830CF84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F3F50E4AFC6280F5B0E56F /* TuistBundle+MBTIFeature.swift in Sources */,
+				8A6E3E10DB4E49197E11B304 /* MBTIRepositoryImpl.swift in Sources */,
+				1E3C4C246B88760D6667E8F6 /* MBTIRepository.swift in Sources */,
+				931B396F23D2FC30E046192C /* MBTIBoardUseCase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A1155B9E49820A666FA2D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF11A6B50933593C4971B66B /* Dummy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0F7D9CD2F7FC724BB894C5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBTIFeature;
+			target = A53F664F18D1154489059DF0 /* MBTIFeature */;
+			targetProxy = 54D00ACB27375EB82B12952A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		659DB7014EF20697B78096D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/MBTIFeatureTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = funch.MBTIFeatureTests;
+				PRODUCT_NAME = MBTIFeatureTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67004172693C59A12F038BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		805A58587CAB54C6FE3BFBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Derived/InfoPlists/MBTIFeature-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = funch.MBTIFeature;
+				PRODUCT_NAME = MBTIFeature;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		83C260A83EF10A7CA936715B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F94439F68DAAFCE40C166A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/MBTIFeatureTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = funch.MBTIFeatureTests;
+				PRODUCT_NAME = MBTIFeatureTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0276D1E04E21549160E8722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Derived/InfoPlists/MBTIFeature-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = funch.MBTIFeature;
+				PRODUCT_NAME = MBTIFeature;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EF69C1F6B6F72509C71F0E1 /* Build configuration list for PBXProject "MBTIFeature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67004172693C59A12F038BCD /* Debug */,
+				83C260A83EF10A7CA936715B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2E11CC59A27B08F2DE33437 /* Build configuration list for PBXNativeTarget "MBTIFeatureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659DB7014EF20697B78096D6 /* Debug */,
+				9F94439F68DAAFCE40C166A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7DB14ECC7D6092C6FF34ECA /* Build configuration list for PBXNativeTarget "MBTIFeature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0276D1E04E21549160E8722 /* Debug */,
+				805A58587CAB54C6FE3BFBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCCEC223486D610BC41F7B47 /* Project object */;
+}

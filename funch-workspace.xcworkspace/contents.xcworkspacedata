@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Projects"
+      name = "Projects">
+      <FileRef
+         location = "group:App/App.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:Core"
+         name = "Core">
+         <FileRef
+            location = "group:DesignSystem/DesignSystem.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:FunchCore/FunchCore.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:FunchNetworking/FunchNetworking.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:ThirdParty/ThirdParty.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Features"
+         name = "Features">
+         <FileRef
+            location = "group:MBTIBoard/MBTIBoardFeature.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Matching/MatchingFeature.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Profile/ProfileFeature.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:SearchSubwayStation/SearchSubwayStationFeature.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Shared"
+         name = "Shared">
+         <FileRef
+            location = "group:Entity/Entity.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:OpenURLClient/OpenURLClient.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:UserDefaultClient/UserDefaultClient.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:UI"
+         name = "UI">
+         <FileRef
+            location = "group:Coordinator/Coordinator.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:EasterEgg/EasterEggUI.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Home/HomeUI.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:MBTIBoard/MBTIBoardUI.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:MatchResult/MatchResultUI.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:MultiProfile/MultiProfileUI.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Onboarding/OnboardingUI.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Profile/ProfileUI.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:ProfileEdit/ProfileEditUI.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Splash/SplashUI.xcodeproj">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>

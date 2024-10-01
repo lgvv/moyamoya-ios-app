@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1010"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "93E9E330FC2CE7458D9C925F"
+               BuildableName = "App.app"
+               BlueprintName = "App"
+               ReferencedContainer = "container:Projects/App/App.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "99DCC7BD0ABB09C467644299"
+               BuildableName = "AppTests.xctest"
+               BlueprintName = "AppTests"
+               ReferencedContainer = "container:Projects/App/App.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C334838EF4B06CF4FC403823"
+               BuildableName = "Coordinator.framework"
+               BlueprintName = "Coordinator"
+               ReferencedContainer = "container:Projects/UI/Coordinator/Coordinator.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BDD0BDBBE6A1AFE0C0AB694C"
+               BuildableName = "CoordinatorTests.xctest"
+               BlueprintName = "CoordinatorTests"
+               ReferencedContainer = "container:Projects/UI/Coordinator/Coordinator.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "83C9B5D1938C22907FF6E247"
+               BuildableName = "DesignSystem.framework"
+               BlueprintName = "DesignSystem"
+               ReferencedContainer = "container:Projects/Core/DesignSystem/DesignSystem.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0F708BB592F173C2660727CA"
+               BuildableName = "DesignSystemTests.xctest"
+               BlueprintName = "DesignSystemTests"
+               ReferencedContainer = "container:Projects/Core/DesignSystem/DesignSystem.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D71D0DBF369BF7505F67700E"
+               BuildableName = "EasterEggUI.framework"
+               BlueprintName = "EasterEggUI"
+               ReferencedContainer = "container:Projects/UI/EasterEgg/EasterEggUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CD9094FD8540CEF1E93A8B9E"
+               BuildableName = "EasterEggUITests.xctest"
+               BlueprintName = "EasterEggUITests"
+               ReferencedContainer = "container:Projects/UI/EasterEgg/EasterEggUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "042DC66B2D24AF498EE37349"
+               BuildableName = "Entity.framework"
+               BlueprintName = "Entity"
+               ReferencedContainer = "container:Projects/Shared/Entity/Entity.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ACA09057B39B93DFEB1C02D7"
+               BuildableName = "EntityTests.xctest"
+               BlueprintName = "EntityTests"
+               ReferencedContainer = "container:Projects/Shared/Entity/Entity.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "53CDF9DD282642075321106D"
+               BuildableName = "FunchCore.framework"
+               BlueprintName = "FunchCore"
+               ReferencedContainer = "container:Projects/Core/FunchCore/FunchCore.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FD287DF83EEC450AC1342258"
+               BuildableName = "FunchCoreTests.xctest"
+               BlueprintName = "FunchCoreTests"
+               ReferencedContainer = "container:Projects/Core/FunchCore/FunchCore.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4C47BE897C0A1AE4A4DEF1C0"
+               BuildableName = "FunchNetworking.framework"
+               BlueprintName = "FunchNetworking"
+               ReferencedContainer = "container:Projects/Core/FunchNetworking/FunchNetworking.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "08E430D43B78AB32A2ED8999"
+               BuildableName = "FunchNetworkingTests.xctest"
+               BlueprintName = "FunchNetworkingTests"
+               ReferencedContainer = "container:Projects/Core/FunchNetworking/FunchNetworking.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BA7D8656A73B34B6BC324AEF"
+               BuildableName = "HomeUI.framework"
+               BlueprintName = "HomeUI"
+               ReferencedContainer = "container:Projects/UI/Home/HomeUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3704050AFFCD3BFE5AD5C606"
+               BuildableName = "HomeUITests.xctest"
+               BlueprintName = "HomeUITests"
+               ReferencedContainer = "container:Projects/UI/Home/HomeUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B2FF31F55A80AB86C0A42A5D"
+               BuildableName = "MBTIBoardFeature.framework"
+               BlueprintName = "MBTIBoardFeature"
+               ReferencedContainer = "container:Projects/Features/MBTIBoard/MBTIBoardFeature.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6F0D499B08484611E64024D2"
+               BuildableName = "MBTIBoardFeatureTests.xctest"
+               BlueprintName = "MBTIBoardFeatureTests"
+               ReferencedContainer = "container:Projects/Features/MBTIBoard/MBTIBoardFeature.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FE0440358E64E6FF545ED36E"
+               BuildableName = "MBTIBoardUI.framework"
+               BlueprintName = "MBTIBoardUI"
+               ReferencedContainer = "container:Projects/UI/MBTIBoard/MBTIBoardUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6DFA5ADF4628DE7E2D1DB8D8"
+               BuildableName = "MBTIBoardUITests.xctest"
+               BlueprintName = "MBTIBoardUITests"
+               ReferencedContainer = "container:Projects/UI/MBTIBoard/MBTIBoardUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4A5F029BB412FEF60EF659EA"
+               BuildableName = "MatchResultUI.framework"
+               BlueprintName = "MatchResultUI"
+               ReferencedContainer = "container:Projects/UI/MatchResult/MatchResultUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0C07083C66A31CE403BC6C05"
+               BuildableName = "MatchResultUITests.xctest"
+               BlueprintName = "MatchResultUITests"
+               ReferencedContainer = "container:Projects/UI/MatchResult/MatchResultUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "497F785C5144AB01186EB129"
+               BuildableName = "MatchingFeature.framework"
+               BlueprintName = "MatchingFeature"
+               ReferencedContainer = "container:Projects/Features/Matching/MatchingFeature.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E9C8DD0E0A9DD8B0F5F85A67"
+               BuildableName = "MatchingFeatureTests.xctest"
+               BlueprintName = "MatchingFeatureTests"
+               ReferencedContainer = "container:Projects/Features/Matching/MatchingFeature.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8E3D7D0424A9C8377698FE9F"
+               BuildableName = "MultiProfileUI.framework"
+               BlueprintName = "MultiProfileUI"
+               ReferencedContainer = "container:Projects/UI/MultiProfile/MultiProfileUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C2B35330691E76C1EB4E830C"
+               BuildableName = "MultiProfileUITests.xctest"
+               BlueprintName = "MultiProfileUITests"
+               ReferencedContainer = "container:Projects/UI/MultiProfile/MultiProfileUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "19122E8666841CEAB653AFE4"
+               BuildableName = "OnboardingUI.framework"
+               BlueprintName = "OnboardingUI"
+               ReferencedContainer = "container:Projects/UI/Onboarding/OnboardingUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2CD39E444F0A2359915F51F1"
+               BuildableName = "OnboardingUITests.xctest"
+               BlueprintName = "OnboardingUITests"
+               ReferencedContainer = "container:Projects/UI/Onboarding/OnboardingUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "048E3FE714DC27A572216343"
+               BuildableName = "OpenURLClient.framework"
+               BlueprintName = "OpenURLClient"
+               ReferencedContainer = "container:Projects/Shared/OpenURLClient/OpenURLClient.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7EC454323B51D47355E6F05C"
+               BuildableName = "OpenURLClientTests.xctest"
+               BlueprintName = "OpenURLClientTests"
+               ReferencedContainer = "container:Projects/Shared/OpenURLClient/OpenURLClient.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9495C8F058414F944E34876B"
+               BuildableName = "OpenURLClientTests.xctest"
+               BlueprintName = "OpenURLClientTests"
+               ReferencedContainer = "container:Projects/Shared/UserDefaultClient/UserDefaultClient.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5C732897C40244748543D7D5"
+               BuildableName = "ProfileEditUI.framework"
+               BlueprintName = "ProfileEditUI"
+               ReferencedContainer = "container:Projects/UI/ProfileEdit/ProfileEditUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "98D016E5AD7B02A6B2EE7623"
+               BuildableName = "ProfileEditUITests.xctest"
+               BlueprintName = "ProfileEditUITests"
+               ReferencedContainer = "container:Projects/UI/ProfileEdit/ProfileEditUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DFD16675E1D8A7E2DCBCF8E4"
+               BuildableName = "ProfileFeature.framework"
+               BlueprintName = "ProfileFeature"
+               ReferencedContainer = "container:Projects/Features/Profile/ProfileFeature.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6B16973C40EE93100350FF40"
+               BuildableName = "ProfileFeatureTests.xctest"
+               BlueprintName = "ProfileFeatureTests"
+               ReferencedContainer = "container:Projects/Features/Profile/ProfileFeature.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D50A4CD6E7D28C3037282A7E"
+               BuildableName = "ProfileUI.framework"
+               BlueprintName = "ProfileUI"
+               ReferencedContainer = "container:Projects/UI/Profile/ProfileUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0D4475E7DFCC76F22E332E3D"
+               BuildableName = "ProfileUITests.xctest"
+               BlueprintName = "ProfileUITests"
+               ReferencedContainer = "container:Projects/UI/Profile/ProfileUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6A1DB8A8DA6245F310A79F1A"
+               BuildableName = "SearchSubwayStationFeature.framework"
+               BlueprintName = "SearchSubwayStationFeature"
+               ReferencedContainer = "container:Projects/Features/SearchSubwayStation/SearchSubwayStationFeature.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BBF731770ED638A599F45F6C"
+               BuildableName = "SearchSubwayStationFeatureTests.xctest"
+               BlueprintName = "SearchSubwayStationFeatureTests"
+               ReferencedContainer = "container:Projects/Features/SearchSubwayStation/SearchSubwayStationFeature.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "22008080795D8DCDFFCFD0A0"
+               BuildableName = "SplashUI.framework"
+               BlueprintName = "SplashUI"
+               ReferencedContainer = "container:Projects/UI/Splash/SplashUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C81ECA76F3F08334F1D1C5B4"
+               BuildableName = "SplashUITests.xctest"
+               BlueprintName = "SplashUITests"
+               ReferencedContainer = "container:Projects/UI/Splash/SplashUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5D711CEA43FFAD6AD6BDA3FC"
+               BuildableName = "ThirdParty.framework"
+               BlueprintName = "ThirdParty"
+               ReferencedContainer = "container:Projects/Core/ThirdParty/ThirdParty.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ED2358CCE9F630DEEA3CC099"
+               BuildableName = "UserDefaultClient.framework"
+               BlueprintName = "UserDefaultClient"
+               ReferencedContainer = "container:Projects/Shared/UserDefaultClient/UserDefaultClient.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "99DCC7BD0ABB09C467644299"
+               BuildableName = "AppTests.xctest"
+               BlueprintName = "AppTests"
+               ReferencedContainer = "container:Projects/App/App.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BDD0BDBBE6A1AFE0C0AB694C"
+               BuildableName = "CoordinatorTests.xctest"
+               BlueprintName = "CoordinatorTests"
+               ReferencedContainer = "container:Projects/UI/Coordinator/Coordinator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0F708BB592F173C2660727CA"
+               BuildableName = "DesignSystemTests.xctest"
+               BlueprintName = "DesignSystemTests"
+               ReferencedContainer = "container:Projects/Core/DesignSystem/DesignSystem.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CD9094FD8540CEF1E93A8B9E"
+               BuildableName = "EasterEggUITests.xctest"
+               BlueprintName = "EasterEggUITests"
+               ReferencedContainer = "container:Projects/UI/EasterEgg/EasterEggUI.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ACA09057B39B93DFEB1C02D7"
+               BuildableName = "EntityTests.xctest"
+               BlueprintName = "EntityTests"
+               ReferencedContainer = "container:Projects/Shared/Entity/Entity.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FD287DF83EEC450AC1342258"
+               BuildableName = "FunchCoreTests.xctest"
+               BlueprintName = "FunchCoreTests"
+               ReferencedContainer = "container:Projects/Core/FunchCore/FunchCore.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "08E430D43B78AB32A2ED8999"
+               BuildableName = "FunchNetworkingTests.xctest"
+               BlueprintName = "FunchNetworkingTests"
+               ReferencedContainer = "container:Projects/Core/FunchNetworking/FunchNetworking.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3704050AFFCD3BFE5AD5C606"
+               BuildableName = "HomeUITests.xctest"
+               BlueprintName = "HomeUITests"
+               ReferencedContainer = "container:Projects/UI/Home/HomeUI.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6F0D499B08484611E64024D2"
+               BuildableName = "MBTIBoardFeatureTests.xctest"
+               BlueprintName = "MBTIBoardFeatureTests"
+               ReferencedContainer = "container:Projects/Features/MBTIBoard/MBTIBoardFeature.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6DFA5ADF4628DE7E2D1DB8D8"
+               BuildableName = "MBTIBoardUITests.xctest"
+               BlueprintName = "MBTIBoardUITests"
+               ReferencedContainer = "container:Projects/UI/MBTIBoard/MBTIBoardUI.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0C07083C66A31CE403BC6C05"
+               BuildableName = "MatchResultUITests.xctest"
+               BlueprintName = "MatchResultUITests"
+               ReferencedContainer = "container:Projects/UI/MatchResult/MatchResultUI.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E9C8DD0E0A9DD8B0F5F85A67"
+               BuildableName = "MatchingFeatureTests.xctest"
+               BlueprintName = "MatchingFeatureTests"
+               ReferencedContainer = "container:Projects/Features/Matching/MatchingFeature.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C2B35330691E76C1EB4E830C"
+               BuildableName = "MultiProfileUITests.xctest"
+               BlueprintName = "MultiProfileUITests"
+               ReferencedContainer = "container:Projects/UI/MultiProfile/MultiProfileUI.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2CD39E444F0A2359915F51F1"
+               BuildableName = "OnboardingUITests.xctest"
+               BlueprintName = "OnboardingUITests"
+               ReferencedContainer = "container:Projects/UI/Onboarding/OnboardingUI.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7EC454323B51D47355E6F05C"
+               BuildableName = "OpenURLClientTests.xctest"
+               BlueprintName = "OpenURLClientTests"
+               ReferencedContainer = "container:Projects/Shared/OpenURLClient/OpenURLClient.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9495C8F058414F944E34876B"
+               BuildableName = "OpenURLClientTests.xctest"
+               BlueprintName = "OpenURLClientTests"
+               ReferencedContainer = "container:Projects/Shared/UserDefaultClient/UserDefaultClient.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "98D016E5AD7B02A6B2EE7623"
+               BuildableName = "ProfileEditUITests.xctest"
+               BlueprintName = "ProfileEditUITests"
+               ReferencedContainer = "container:Projects/UI/ProfileEdit/ProfileEditUI.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6B16973C40EE93100350FF40"
+               BuildableName = "ProfileFeatureTests.xctest"
+               BlueprintName = "ProfileFeatureTests"
+               ReferencedContainer = "container:Projects/Features/Profile/ProfileFeature.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0D4475E7DFCC76F22E332E3D"
+               BuildableName = "ProfileUITests.xctest"
+               BlueprintName = "ProfileUITests"
+               ReferencedContainer = "container:Projects/UI/Profile/ProfileUI.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BBF731770ED638A599F45F6C"
+               BuildableName = "SearchSubwayStationFeatureTests.xctest"
+               BlueprintName = "SearchSubwayStationFeatureTests"
+               ReferencedContainer = "container:Projects/Features/SearchSubwayStation/SearchSubwayStationFeature.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C81ECA76F3F08334F1D1C5B4"
+               BuildableName = "SplashUITests.xctest"
+               BlueprintName = "SplashUITests"
+               ReferencedContainer = "container:Projects/UI/Splash/SplashUI.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "93E9E330FC2CE7458D9C925F"
+            BuildableName = "App.app"
+            BlueprintName = "App"
+            ReferencedContainer = "container:Projects/App/App.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "93E9E330FC2CE7458D9C925F"
+            BuildableName = "App.app"
+            BlueprintName = "App"
+            ReferencedContainer = "container:Projects/App/App.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
