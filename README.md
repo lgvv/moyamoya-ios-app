@@ -1,4 +1,5 @@
 ## 펀치(Funch)
+- [넥스터즈 2023.01 ~ 2023.03 프로젝트](https://github.com/Nexters/moyamoya-ios-app) 를 Tuist 4.25.0 기반으로 수정한 Repository
 
 ### 펀치(Funch) Post
 - [펀치 개발 블로그 포스팅](https://rldd.tistory.com/category/iOS%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%F0%9F%A5%8A%20funch)
@@ -17,8 +18,9 @@
 |TechStack||
 |------|---|
 |UI|SwiftUI|
-|Project Manage|Tuist 4.x|
+|Project Manage|Tuist 4.25.0|
 |Architecture|MVVM|
+|Test|XCTest|
 |Asynchronous|Combine, Swift Concurrency|
 |Minimum iOS Version|17.0|
 |ETC|Moya, SwiftUIPager, Lottie|
