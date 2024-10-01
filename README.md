@@ -25,4 +25,8 @@
 |Minimum iOS Version|17.0|
 |ETC|Moya, SwiftUIPager, Lottie|
 
+### Tuist Graph
+<p align="center">
+ <img src="https://github.com/lgvv/moyamoya-ios-app/blob/develop/graph.png" width="100%"/>
+</p>
 
